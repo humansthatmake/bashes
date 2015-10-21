@@ -9,10 +9,6 @@ rm qt-opensource-linux-x64-5.4.0.run
 
 sudo apt-get install -y build-essential libpng-dev python3-dev libboost-all-dev libgl1-mesa-dev lemon flex git
 
-gcc -v|grep ""
-#http://superuser.com/questions/665011/in-a-shell-scripts-check-version-of-installed-package-make-a-decision-based-on
-#http://www.gnu.org/software/bash/manual/bashref.html
-
 git clone https://github.com/mkeeter/antimony
 sudo mv -v antimony /opt/
 cd /opt/antimony/
